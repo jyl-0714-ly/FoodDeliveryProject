@@ -85,7 +85,6 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         converter.setObjectMapper(new JacksonObjectMapper());
         //将自己的消息转换器加入容器中
         converters.add(0, converter);
-
     }
 
 }
