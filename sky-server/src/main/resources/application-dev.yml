@@ -11,3 +11,6 @@ sky:
     access-key-id: LTAI5tDgda7U5Q9jA2fUwFNR
     access-key-secret: waQyasxzf6WBS7X5MCZHdSVTxJeYGA
     bucket-name: jyl666
+  redis:
+    host: localhost
+    port: 6379
