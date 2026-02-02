@@ -35,5 +35,13 @@ public class SetmealController {
         return Result.success();
     }
 
-
+    /**
+     * 分页查询
+     */
+    @GetMapping("/page")
+    @ApiOperation("分页查询")
+    public Result<PageResult> page(SetmealPageQueryDTO setmealPageQueryDTO){
+        PageResult pageResult = setmealService.pageQuery(setmealPageQueryDTO);
+        return Result.success(pageResult);
+    }
 }
