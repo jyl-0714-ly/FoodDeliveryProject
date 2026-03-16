@@ -26,7 +26,7 @@
     
 ②Nginx在终端配置.conf
 
-
+```
 http{
     map $http_upgrade $connection_upgrade{
                 default upgrade;
@@ -74,3 +74,4 @@ http{
      }
      }
 }
+```
