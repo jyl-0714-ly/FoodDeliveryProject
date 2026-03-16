@@ -25,6 +25,8 @@
 ①利用DataGrip创建MySQL数据库和表sky.sql
     
 ②Nginx在终端配置.conf
+
+
 http{
     map $http_upgrade $connection_upgrade{
                 default upgrade;
