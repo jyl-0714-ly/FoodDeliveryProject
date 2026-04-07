@@ -1,3 +1,4 @@
+# Ignore Gradle build files and IDE files
 **/target/
 .idea
 *.iml
